@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -22,7 +23,7 @@ const LoginForm = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('Oops, incorrect username or password.');
+      setError('Oops, incorrect credentials.');
     }
   };
 
